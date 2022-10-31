@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import Nav from './Nav';
+import Header from './Header';
 import Resume from './pages/Resume';
 import About from './pages/About';
-import Projects from './pages/Project';
+import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 
 export default function PortfolioContainer() {
@@ -12,8 +12,8 @@ export default function PortfolioContainer() {
         if (currentPage === 'About') {
             return <About />;
         }
-        if (currentPage === 'Projects') {
-            return <Projects />;
+        if (currentPage === 'Portfolio') {
+            return <Portfolio />;
         }
         if (currentPage === 'Resume') {
             return <Resume />;
@@ -25,7 +25,7 @@ export default function PortfolioContainer() {
 
     return (
         <div>
-            <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
+            <Header currentPage={currentPage} handlePageChange={handlePageChange} />
             {renderPage()}
         </div>
     );
