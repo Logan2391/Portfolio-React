@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import HeadImg from '../images/Delete.png'
 import {
     MDBNavbar,
     MDBContainer,
@@ -8,16 +9,16 @@ import {
     MDBNavbarLink,
     MDBNavbarToggler,
     MDBCollapse,
-    MDBNavbarBrand
 } from 'mdb-react-ui-kit';
 
 export default function Header({ currentPage, handlePageChange }) {
     const [showNavRight, setShowNavRight] = useState(false);
 
     return (
-        <MDBNavbar expand='lg' light bgColor='light'>
-            <MDBContainer fluid>
-            <MDBNavbarBrand href='#'>Logan Schoerner</MDBNavbarBrand>
+        <header>
+            <MDBNavbar expand='lg' className='pt-0'>
+            <MDBContainer fluid className='ps-0'>
+            <img className='text-center bg-image' alt='' src={HeadImg} />
                 <MDBNavbarToggler
                     type='button'
                     data-target='#navbarRightAlignExample'
@@ -30,7 +31,7 @@ export default function Header({ currentPage, handlePageChange }) {
                 </MDBNavbarToggler>
 
                 <MDBCollapse navbar show={showNavRight}>
-                    <MDBNavbarNav right fullWidth={false} className='mb-2 mb-lg-0'>
+                    <MDBNavbarNav right fullWidth={false} className='mb-2 mb-lg-0 text-white'>
                         <MDBNavbarItem>
                             <MDBNavbarLink active aria-current='page' href='#about' onClick={() => handlePageChange('About')} className={currentPage === 'About'}>
                                 About Me
@@ -53,5 +54,7 @@ export default function Header({ currentPage, handlePageChange }) {
                 </MDBCollapse>
             </MDBContainer>
         </MDBNavbar>
+            
+        </header>
     );
 }

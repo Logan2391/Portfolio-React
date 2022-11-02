@@ -1,39 +1,52 @@
 import React from 'react';
-import {
-  MDBCarousel,
-  MDBCarouselItem,
-} from 'mdb-react-ui-kit';
+import Carousel from 'react-bootstrap/Carousel';
+import projects from '../../projects';
+import { MDBContainer, MDBBtn } from 'mdb-react-ui-kit';
 
-export default function Portfolio() {
+const styles = {
+  color: {
+    background: '#1C1C1C',
+    color: '#f7f6f1',
+    borderRadius: '8px'
+  },
+  btn: {
+    background: '#72859a',
+    border: 'none',
+    
+  },
+  textColor: {
+    color: '#f7f6f1'
+  },
+  mediaQ: {
+    @meida (maxWidth: '529px') {
+      
+    }
+  }
+}
+
+function Portfolio() {
   return (
-    <MDBCarousel showControls showIndicators>
-      <MDBCarouselItem
-        className='w-100 d-block'
-        itemId={1}
-        src='https://mdbootstrap.com/img/new/slides/041.jpg'
-        alt='...'
-      >
-        <h5>First slide label</h5>
-        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-      </MDBCarouselItem>
-      <MDBCarouselItem
-        className='w-100 d-block'
-        itemId={2}
-        src='https://mdbootstrap.com/img/new/slides/042.jpg'
-        alt='...'
-      >
-        <h5>Second slide label</h5>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      </MDBCarouselItem>
-      <MDBCarouselItem
-        className='w-100 d-block'
-        itemId={3}
-        src='https://mdbootstrap.com/img/new/slides/043.jpg'
-        alt='...'
-      >
-        <h5>Third slide label</h5>
-        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-      </MDBCarouselItem>
-    </MDBCarousel>
+    <MDBContainer className='mt-5'>
+      <Carousel >
+        {projects.map((project) => (
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src={project.image}
+              alt={project.id}
+            />
+            <Carousel.Caption style={styles.color}>
+              <h6>{project.name}</h6>
+              <p>{project.description}</p>
+              <MDBBtn style={styles.btn} className='me-3'><a style={styles.textColor} className='text-decoration-none' href={project.repo}>View the repository</a></MDBBtn>
+              <MDBBtn style={styles.btn}><a style={styles.textColor} className='text-decoration-none' href={project.liveSite}>View the live site/tutorial</a></MDBBtn>
+            </Carousel.Caption>
+          </Carousel.Item>
+        ))}
+      </Carousel>
+    </MDBContainer>
+
   );
 }
+
+export default Portfolio;
