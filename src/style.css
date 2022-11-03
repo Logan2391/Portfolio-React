@@ -6,7 +6,6 @@ body {
 
 .navCust {
     font-size: 20px!important;
-    
 }
 
 .textC {
@@ -32,6 +31,7 @@ h6 {
 .custWid {
     width: 25%!important;
 }
+
 
 @media screen and (max-width: 1037px) {
     .custWid {

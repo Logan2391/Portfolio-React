@@ -10,7 +10,7 @@ import {
 
 export default function App() {
   return (
-    <MDBFooter className='text-center text-white fixed-bottom mt-2' >
+    <MDBFooter className='text-center text-white position-sticky mt-2' >
       <MDBContainer className='py-2'>
         <section className='mb-1'>
           
