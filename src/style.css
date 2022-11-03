@@ -1,7 +1,128 @@
 body {
     background-image: url(./images/blurry-gradient-haikei\ \(9\).png);
     background-size: cover;
-    
     height: 100vh;
 }
+
+.navCust {
+    font-size: 20px!important;
+    
+}
+
+.textC {
+    color: #f7f6f1;
+}
+
+.custP {
+    font-size: 1rem;
+}
+
+h6 {
+    font-size: 1.25rem;
+}
+
+.custBtn {
+    font-size: 1rem;
+}
+
+.textR {
+    list-style-position: inside;
+}
+
+.custWid {
+    width: 25%!important;
+}
+
+@media screen and (max-width: 1037px) {
+    .custWid {
+        width: 30%!important;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .navCust {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 861px) {
+    .custWid {
+        width: 35%!important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .custP {
+        font-size: .8rem;
+    }
+
+    .custBtn {
+        font-size: .8rem!important;
+    }
+
+    .custWid {
+        width: 40%!important;
+    }
+
+    
+}
+
+@media screen and (max-width: 693px) {
+ 
+    .custP {
+        font-size: .6rem;
+    }
+
+    .custBtn {
+        font-size: .6rem!important;
+    }
+
+    .custWid {
+        width: 50%!important;
+    }
+
+}
+
+@media screen and (max-width: 529px) {
+
+    .custP {
+        font-size: .4rem;
+        margin-bottom: 2px;
+    }
+
+    .custBtn {
+        font-size: .4rem!important;
+    }
+
+    .custWid {
+        width: 55%!important;
+    }
+
+}
+
+@media screen and (max-width: 467px) {
+    .custWid {
+        width: 65%!important;
+    }
+}
+
+@media screen and (max-width: 392px) {
+    .custWid {
+        width: 90%!important;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    
+
+    .custP {
+        font-size: .3rem;
+    }
+
+    .custBtn {
+        font-size: .3rem!important;
+    }
+}
+
 

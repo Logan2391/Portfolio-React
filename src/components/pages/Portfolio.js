@@ -1,7 +1,8 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
+import Button from 'react-bootstrap/Button';
 import projects from '../../projects';
-import { MDBContainer, MDBBtn } from 'mdb-react-ui-kit';
+import { MDBContainer } from 'mdb-react-ui-kit';
 
 const styles = {
   color: {
@@ -12,34 +13,27 @@ const styles = {
   btn: {
     background: '#72859a',
     border: 'none',
-    
-  },
-  textColor: {
     color: '#f7f6f1'
   },
-  mediaQ: {
-    @meida (maxWidth: '529px') {
-      
-    }
-  }
+  
 }
 
 function Portfolio() {
   return (
-    <MDBContainer className='mt-5'>
-      <Carousel >
+    <MDBContainer  className='mt-5'>
+      <Carousel>
         {projects.map((project) => (
-          <Carousel.Item>
-            <img
+          <Carousel.Item >
+            <img 
               className="d-block w-100"
               src={project.image}
               alt={project.id}
             />
-            <Carousel.Caption style={styles.color}>
+            <Carousel.Caption className='custMedia p-3' style={styles.color}>
               <h6>{project.name}</h6>
-              <p>{project.description}</p>
-              <MDBBtn style={styles.btn} className='me-3'><a style={styles.textColor} className='text-decoration-none' href={project.repo}>View the repository</a></MDBBtn>
-              <MDBBtn style={styles.btn}><a style={styles.textColor} className='text-decoration-none' href={project.liveSite}>View the live site/tutorial</a></MDBBtn>
+              <p className='custP'>{project.description}</p>
+              <Button style={styles.btn} className='text-decoration-none me-3 custBtn' href={project.repo} target='_blank' variant="link">View the repository</Button>
+              <Button style={styles.btn} className='text-decoration-none custBtn' href={project.liveSite} target='_blank' variant="link">View the live site/tutorial</Button>
             </Carousel.Caption>
           </Carousel.Item>
         ))}

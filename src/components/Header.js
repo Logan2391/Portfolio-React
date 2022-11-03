@@ -11,6 +11,13 @@ import {
     MDBCollapse,
 } from 'mdb-react-ui-kit';
 
+const styles = {
+    color: {
+      color: '#f7f6f1',
+      marginRight: '10px',
+    },
+  }
+
 export default function Header({ currentPage, handlePageChange }) {
     const [showNavRight, setShowNavRight] = useState(false);
 
@@ -31,22 +38,22 @@ export default function Header({ currentPage, handlePageChange }) {
                 </MDBNavbarToggler>
 
                 <MDBCollapse navbar show={showNavRight}>
-                    <MDBNavbarNav right fullWidth={false} className='mb-2 mb-lg-0 text-white'>
-                        <MDBNavbarItem>
-                            <MDBNavbarLink active aria-current='page' href='#about' onClick={() => handlePageChange('About')} className={currentPage === 'About'}>
+                    <MDBNavbarNav right fullWidth={false} className='mb-2 mb-lg-0'>
+                        <MDBNavbarItem className='navCust'>
+                            <MDBNavbarLink style={styles.color} aria-current='page' href='#about' onClick={() => handlePageChange('About')} className={currentPage === 'About'}>
                                 About Me
                             </MDBNavbarLink>
                         </MDBNavbarItem>
-                        <MDBNavbarItem>
-                            <MDBNavbarLink href='#portfolio' onClick={() => handlePageChange('Portfolio')} className={currentPage === 'Portfolio'}>
+                        <MDBNavbarItem className='navCust'>
+                            <MDBNavbarLink style={styles.color} href='#portfolio' onClick={() => handlePageChange('Portfolio')} className={currentPage === 'Portfolio'}>
                                 Portfolio</MDBNavbarLink>
                         </MDBNavbarItem>
-                        <MDBNavbarItem>
-                            <MDBNavbarLink href='#resume' onClick={() => handlePageChange('Resume')} className={currentPage === 'Resume'}>
+                        <MDBNavbarItem className='navCust'>
+                            <MDBNavbarLink style={styles.color} href='#resume' onClick={() => handlePageChange('Resume')} className={currentPage === 'Resume'}>
                                 Resume</MDBNavbarLink>
                         </MDBNavbarItem>
-                        <MDBNavbarItem>
-                            <MDBNavbarLink href='#contact' onClick={() => handlePageChange('Contact')} className={currentPage === 'Contact'}>
+                        <MDBNavbarItem className='navCust'>
+                            <MDBNavbarLink style={styles.color} href='#contact' onClick={() => handlePageChange('Contact')} className={currentPage === 'Contact'}>
                                 Contact Me</MDBNavbarLink>
                         </MDBNavbarItem>
 
