@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Portfolio-React/static/css/main.a7137d24.css",
+    "main.js": "/Portfolio-React/static/js/main.ce6f3435.js",
+    "static/media/IMG_0437.png": "/Portfolio-React/static/media/IMG_0437.776f26a6c5ca20c0db6f.png",
+    "static/media/currencyConvertorProject.png": "/Portfolio-React/static/media/currencyConvertorProject.5dcf878e1c663331572d.png",
+    "static/media/LogansList.png": "/Portfolio-React/static/media/LogansList.5322d0a018a1cf42317f.png",
+    "static/media/screenshot.weather.png": "/Portfolio-React/static/media/screenshot.weather.d0afa1c83b86fec72e54.png",
+    "static/media/blurry-gradient-haikei (9).png": "/Portfolio-React/static/media/blurry-gradient-haikei (9).6e4f37ed6c322a6aeda1.png",
+    "static/media/Resume-Logan Schoerner.pdf": "/Portfolio-React/static/media/Resume-Logan Schoerner.5963a1a03e308291e93d.pdf",
+    "static/media/screenshot team.png": "/Portfolio-React/static/media/screenshot team.5b83ddbc604b4dc06832.png",
+    "static/media/Schedule.png": "/Portfolio-React/static/media/Schedule.1e23ec2725a83a54a5d1.png",
+    "static/media/Delete.png": "/Portfolio-React/static/media/Delete.92eee2329d981e271803.png",
+    "index.html": "/Portfolio-React/index.html",
+    "main.a7137d24.css.map": "/Portfolio-React/static/css/main.a7137d24.css.map",
+    "main.ce6f3435.js.map": "/Portfolio-React/static/js/main.ce6f3435.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a7137d24.css",
+    "static/js/main.ce6f3435.js"
+  ]
+}
