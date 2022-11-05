@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/www.loganschoerner-dev.com/static/css/main.18712413.css",
-    "main.js": "/www.loganschoerner-dev.com/static/js/main.828b0827.js",
-    "static/media/IMG_0437.png": "/www.loganschoerner-dev.com/static/media/IMG_0437.776f26a6c5ca20c0db6f.png",
-    "static/media/currencyConvertorProject.png": "/www.loganschoerner-dev.com/static/media/currencyConvertorProject.5dcf878e1c663331572d.png",
-    "static/media/LogansList.png": "/www.loganschoerner-dev.com/static/media/LogansList.5322d0a018a1cf42317f.png",
-    "static/media/screenshot.weather.png": "/www.loganschoerner-dev.com/static/media/screenshot.weather.d0afa1c83b86fec72e54.png",
-    "static/media/blurry-gradient-haikei (9).png": "/www.loganschoerner-dev.com/static/media/blurry-gradient-haikei (9).6e4f37ed6c322a6aeda1.png",
-    "static/media/Resume-Logan Schoerner.pdf": "/www.loganschoerner-dev.com/static/media/Resume-Logan Schoerner.5963a1a03e308291e93d.pdf",
-    "static/media/screenshot team.png": "/www.loganschoerner-dev.com/static/media/screenshot team.5b83ddbc604b4dc06832.png",
-    "static/media/Schedule.png": "/www.loganschoerner-dev.com/static/media/Schedule.1e23ec2725a83a54a5d1.png",
-    "static/media/Delete.png": "/www.loganschoerner-dev.com/static/media/Delete.92eee2329d981e271803.png",
-    "index.html": "/www.loganschoerner-dev.com/index.html",
-    "main.18712413.css.map": "/www.loganschoerner-dev.com/static/css/main.18712413.css.map",
-    "main.828b0827.js.map": "/www.loganschoerner-dev.com/static/js/main.828b0827.js.map"
+    "main.css": "/Profile-React/static/css/main.04f761a7.css",
+    "main.js": "/Profile-React/static/js/main.be5d4ae4.js",
+    "static/media/IMG_0437.png": "/Profile-React/static/media/IMG_0437.776f26a6c5ca20c0db6f.png",
+    "static/media/currencyConvertorProject.png": "/Profile-React/static/media/currencyConvertorProject.5dcf878e1c663331572d.png",
+    "static/media/LogansList.png": "/Profile-React/static/media/LogansList.5322d0a018a1cf42317f.png",
+    "static/media/screenshot.weather.png": "/Profile-React/static/media/screenshot.weather.d0afa1c83b86fec72e54.png",
+    "static/media/blurry-gradient-haikei (9).png": "/Profile-React/static/media/blurry-gradient-haikei (9).6e4f37ed6c322a6aeda1.png",
+    "static/media/Resume-Logan Schoerner.pdf": "/Profile-React/static/media/Resume-Logan Schoerner.5963a1a03e308291e93d.pdf",
+    "static/media/screenshot team.png": "/Profile-React/static/media/screenshot team.5b83ddbc604b4dc06832.png",
+    "static/media/Schedule.png": "/Profile-React/static/media/Schedule.1e23ec2725a83a54a5d1.png",
+    "static/media/Delete.png": "/Profile-React/static/media/Delete.92eee2329d981e271803.png",
+    "index.html": "/Profile-React/index.html",
+    "main.04f761a7.css.map": "/Profile-React/static/css/main.04f761a7.css.map",
+    "main.be5d4ae4.js.map": "/Profile-React/static/js/main.be5d4ae4.js.map"
   },
   "entrypoints": [
-    "static/css/main.18712413.css",
-    "static/js/main.828b0827.js"
+    "static/css/main.04f761a7.css",
+    "static/js/main.be5d4ae4.js"
   ]
 }
