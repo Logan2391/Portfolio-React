@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Profile-React/static/css/main.04f761a7.css",
-    "main.js": "/Profile-React/static/js/main.be5d4ae4.js",
+    "main.js": "/Profile-React/static/js/main.eaa76fb5.js",
     "static/media/IMG_0437.png": "/Profile-React/static/media/IMG_0437.776f26a6c5ca20c0db6f.png",
     "static/media/currencyConvertorProject.png": "/Profile-React/static/media/currencyConvertorProject.5dcf878e1c663331572d.png",
     "static/media/LogansList.png": "/Profile-React/static/media/LogansList.5322d0a018a1cf42317f.png",
@@ -13,10 +13,10 @@
     "static/media/Delete.png": "/Profile-React/static/media/Delete.92eee2329d981e271803.png",
     "index.html": "/Profile-React/index.html",
     "main.04f761a7.css.map": "/Profile-React/static/css/main.04f761a7.css.map",
-    "main.be5d4ae4.js.map": "/Profile-React/static/js/main.be5d4ae4.js.map"
+    "main.eaa76fb5.js.map": "/Profile-React/static/js/main.eaa76fb5.js.map"
   },
   "entrypoints": [
     "static/css/main.04f761a7.css",
-    "static/js/main.be5d4ae4.js"
+    "static/js/main.eaa76fb5.js"
   ]
 }
