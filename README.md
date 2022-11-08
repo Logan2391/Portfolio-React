@@ -4,7 +4,10 @@
 
   [![license:MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
   
-![project]()
+![project](./assets/about.png)
+![project](./assets/port.png)
+![project](./assets/res.png)
+![project](./assets/contact.png)
  ## Table of Contents 
  - [Description](#description)
  - [Installation](#installation)
@@ -22,9 +25,6 @@
 
   ## Contributions
   Logan Schoerner
-
-  ## Tests
-  N/A
 
   ## Licenses
     This project is covered under the MIT license. Click the license button at the top to learn more about what this means.

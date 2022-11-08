@@ -13,6 +13,9 @@ const styles = {
     border: 'none',
     color: '#f7f6f1'
   },
+  color: {
+    color: '#f7f6f1'
+  }
 }
 
 function Contact() {
@@ -56,17 +59,17 @@ function Contact() {
             <MDBInput placeholder='Name' name="name" onChange={handleInputChange} value={nameN} type='text' />
             <br />
             <MDBInput placeholder='Email Address' name="email" onChange={handleInputChange} value={email} type='text' />
+            {errorMessage && (
+              <div>
+                <p style={styles.color} className="fs-5">{errorMessage}</p>
+              </div>
+            )}
             <br />
-            <MDBTextArea placeholder='Message' name="message" onChange={handleInputChange}  value={message} type='text' rows={4} />
+            <MDBTextArea placeholder='Message' name="message" onChange={handleInputChange} value={message} type='text' rows={4} />
           </div>
           <Button style={styles.btn} type='button' className='text-decoration-none mt-2' href='#' target='_blank' onClick={handleFormSubmit}>Submit</Button>
         </MDBContainer>
       </form>
-      {errorMessage && (
-        <div>
-          <p className="error-text">{errorMessage}</p>
-        </div>
-      )}
     </div>
   )
 }
