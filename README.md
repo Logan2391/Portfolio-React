@@ -1,6 +1,5 @@
 # React-Portfolio
  ## Description
-  This is my professional portfolio redesigned using react js.
 
   [![license:MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
   
